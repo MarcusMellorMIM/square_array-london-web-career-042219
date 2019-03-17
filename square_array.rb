@@ -4,4 +4,6 @@ def square_array(array)
   #  new_array << array_value*array_value
   #end
   array.map!{|x|x*x}
+  new_array=array.each{|x|x*x}
+
 end
